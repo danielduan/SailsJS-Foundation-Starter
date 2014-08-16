@@ -22,7 +22,29 @@ module.exports = function(grunt) {
 				cwd: './assets',
 				src: ['**/*.!(coffee|less)'],
 				dest: '.tmp/public'
-			}]
+			},
+			{
+				expand: true,
+				cwd: './bower_components',
+				flatten: true,
+				src: ['foundation/js/vendor/modernizr.js'],
+				dest: '.tmp/public/js/vendor/'
+			},
+			{
+				expand: true,
+				cwd: './bower_components',
+				flatten: true,
+				src: ['foundation/js/foundation.min.js'],
+				dest: '.tmp/public/js/'
+			},
+			{
+				expand: true,
+				cwd: './bower_components',
+				flatten: true,
+				src: ['foundation/js/vendor/jquery.js'],
+				dest: '.tmp/public/js/vendor/'
+			}
+			]
 		},
 		build: {
 			files: [{

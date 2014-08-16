@@ -22,12 +22,19 @@ var cssFilesToInject = [
 // Client-side javascript files to inject in order
 // (uses Grunt-style wildcard/glob/splat expressions)
 var jsFilesToInject = [
-  
+
+  // Modernizr goes first
+  'js/vendor/modernizr.js',
+
   // Load sails.io before everything else
   'js/dependencies/sails.io.js',
 
   // Dependencies like jQuery, or Angular are brought in here
+  'js/vendor/jquery.js',
   'js/dependencies/**/*.js',
+
+  // Foundation 5 after jQuery
+  'js/foundation.min.js',
 
   // All of the rest of your client-side js files
   // will be injected here in no particular order.
