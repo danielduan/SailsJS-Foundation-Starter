@@ -31,20 +31,12 @@
 #
 # 2. Environment-specific configuration
 #    Basically, anything that would be annoying
-<<<<<<< HEAD
 #    to have to change every time you do a
-=======
-#    to have to change every time you do a
->>>>>>> integrated Foundation 5 scss
 #    `git pull`
 #    e.g., your local development database, or
 #    the S3 bucket you're using for file uploads
 #    development.
-<<<<<<< HEAD
 #
-=======
-#
->>>>>>> integrated Foundation 5 scss
 ################################################
 
 config/local.js
@@ -56,11 +48,7 @@ config/local.js
 ################################################
 # Dependencies
 #
-<<<<<<< HEAD
 # When releasing a production app, you may
-=======
-# When releasing a production app, you may
->>>>>>> integrated Foundation 5 scss
 # consider including your node_modules and
 # bower_components directory in your git repo,
 # but during development, its best to exclude it,
@@ -75,11 +63,7 @@ config/local.js
 # About bower_components dir, you can see this:
 # http://addyosmani.com/blog/checking-in-front-end-dependencies/
 # (credit Addy Osmani, @addyosmani)
-<<<<<<< HEAD
 #
-=======
-#
->>>>>>> integrated Foundation 5 scss
 ################################################
 
 node_modules
@@ -87,10 +71,7 @@ bower_components
 
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> integrated Foundation 5 scss
 ################################################
 # Sails.js / Waterline / Grunt
 #
@@ -99,11 +80,8 @@ bower_components
 ################################################
 .tmp
 dump.rdb
-<<<<<<< HEAD
-
-=======
 .sass-cache
->>>>>>> integrated Foundation 5 scss
+
 
 
 
@@ -139,7 +117,5 @@ npm-debug.log
 nbproject
 .idea
 .node_history
-<<<<<<< HEAD
-=======
 Thumb.db
->>>>>>> integrated Foundation 5 scss
+.editorconfig
